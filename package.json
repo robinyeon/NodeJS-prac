@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-prac",
+  "version": "1.0.0",
+  "description": "NodeJS practice",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinyeon/NodeJS-prac.git"
+  },
+  "scripts": {
+    "win": "node index.js"
+  },
+  "author": "Robin Yeon",
+  "bugs": {
+    "url": "https://github.com/robinyeon/NodeJS-prac/issues"
+  },
+  "homepage": "https://github.com/robinyeon/NodeJS-prac#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
