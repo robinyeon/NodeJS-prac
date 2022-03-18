@@ -1,5 +1,3 @@
 {
   "presets": ["@babel/preset-env"]
 }
-
-// preset 프ㄹ러그인 종류중 하나로 JS 최신문법 사용가능케함
