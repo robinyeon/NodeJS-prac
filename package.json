@@ -7,7 +7,7 @@
     "url": "git+https://github.com/robinyeon/NodeJS-prac.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Robin Yeon",
   "bugs": {
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/robinyeon/NodeJS-prac#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "mongoose": "^6.2.7",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },

@@ -5,12 +5,12 @@ html(lang="ko")
         title #{pageTitle} | Wetube
     body
         header 
+            h1=pageTitle
             nav 
                 ul 
                     li
-                        a(href="/login") Login
+                        a(href="/videos/upload") Upload video
 
-            h1=pageTitle
         main
             block content
         include partials/footer.pug
