@@ -1,8 +1,8 @@
 import Video from "../models/Video";
 
-export const home = (req, res) => { 
-  Video.find();
-  return res.render("home", { pageTitle: "Home" })
+export const home = async (req, res) => {
+  const videos = await Video.find({});
+  return res.render("home", { pageTitle: "Home", videos: [] });
 };
 
 export const watch = (req, res) => {
@@ -13,8 +13,8 @@ export const watch = (req, res) => {
 
 export const getEdit = (req, res) => {
   const { id } = req.params;
-  
-  return res.render("edit", { pageTitle: `Editing`);
+
+  return res.render("edit", { pageTitle: `Editing` });
 };
 
 export const postEdit = (req, res) => {
@@ -34,6 +34,5 @@ export const postUpload = (req, res) => {
 };
 
 export const deleteVideo = (req, res) => {
-  console.log(req.params);
   return res.send("Delete video");
 };

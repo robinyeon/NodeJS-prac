@@ -12,5 +12,6 @@ const videoSchema = new mongoose.Schema({
 });
 
 const movieModel = mongoose.model("Video", videoSchema);
+// model(name of the model, required schema)
 
 export default movieModel;
